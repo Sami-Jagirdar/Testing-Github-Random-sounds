@@ -100,7 +100,7 @@ switch program
             disp('Congratulations! You have saved enough.')
         end
 
-        plot(t, amt , 'g' ,t, engineering_tuition , 'b')
+        plot(t, amt , 'g--' ,t, engineering_tuition , 'b')
         title('College Savings vs Tuition fees')
         xlabel('Year')
         ylabel('Balance')
